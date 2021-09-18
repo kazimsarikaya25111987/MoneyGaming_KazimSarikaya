@@ -5,7 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class web { public static WebDriver getDriver(String browserType){
+public class web {
+    public static WebDriver getDriver(String browserType){
     WebDriver driver=null;
     switch (browserType.toLowerCase()){
         case  "chrome" :
