@@ -33,7 +33,7 @@ public class Test1 {
         nameBox.sendKeys("Mike");
         WebElement surnameBox=driver.findElement(By.xpath("//input[@name='map(lastName)']"));
         surnameBox.sendKeys("Smith");
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
     }
 
